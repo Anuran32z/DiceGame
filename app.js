@@ -11,8 +11,6 @@ GAME RULES:
 
 var scores, roundScore, activePlayer, gamePlaying;
 
-
-
 //dice = Math.ceil(Math.random() * 6);//also Math.floor() this will eliminate all the decimal part
 //          SETTER
 //document.querySelector('#current-' + activePlayer).textContent = dice;
