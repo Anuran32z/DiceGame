@@ -87,7 +87,7 @@ document.querySelector('.btn-hold').addEventListener('click', function() {
 
         // check if player won the game
 
-        if(scores[activePlayer] >= 50){
+        if(scores[activePlayer] >= 100){
             document.querySelector("#name-"  + activePlayer).textContent = 'Winner!';
             document.querySelector('.dice').style.display = 'none';
             //we have already created a class in the css file for this perpose
